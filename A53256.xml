@@ -1,0 +1,902 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Old Æsop at White-hall giving advice to the young Æsops at Tunbridge and Bath, or, Some fables relating to government</title>
+            <author>Person of what quality you please.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1698</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 24 KB of XML-encoded text transcribed from 19 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A53256</idno>
+            <idno type="STC">Wing O196</idno>
+            <idno type="STC">ESTC R36619</idno>
+            <idno type="EEBO-CITATION">15745955</idno>
+            <idno type="OCLC">ocm 15745955</idno>
+            <idno type="VID">104598</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A53256)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 104598)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1153:23)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Old Æsop at White-hall giving advice to the young Æsops at Tunbridge and Bath, or, Some fables relating to government</title>
+                  <author>Person of what quality you please.</author>
+               </titleStmt>
+               <extent>[6], 31 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed and sold by J. Nutt ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1698.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>In verse.</note>
+                  <note>Reproduction of original in the Bristol Public Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Great Britain --  Politics and government --  1689-1702 --  Anecdotes</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-10</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-10</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-12</date>
+            <label>Leah Yurasek</label>Sampled and proofread</change>
+         <change>
+            <date>2010-12</date>
+            <label>Leah Yurasek</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:104598:1" rendition="simple:additions"/>
+            <p>Old AESOP AT. VVHITE-HALL, GIVING Advice to the Young <hi>AESOPS</hi> AT Tunbridge <hi>and</hi> Bath: OR, SOME FABLES Relating to Government.</p>
+            <p>
+               <hi>By a Perſon of what Quality you pleaſe.</hi>
+            </p>
+            <p>
+               <hi>LONDON,</hi> Printed; and Sold by <hi>J. Nutt,</hi> near <hi>Stationers-Hall.</hi> 1698.</p>
+         </div>
+         <div type="preface">
+            <pb facs="tcp:104598:2"/>
+            <pb facs="tcp:104598:2"/>
+            <head>THE PREFACE.</head>
+            <p>IT is now the Mode, it ſeems, for Brutes to turn Politicians; and if we may give Credit to ſome late Authors, their Hou<g ref="char:EOLhyphen"/>ſes of Parliament aſſemble at <hi>Tunbridge</hi> and <hi>Bath.</hi> The Lion who by Preſcription hath been own'd for King, <hi>Nemine Contradicente,</hi> pleads it as his Priviledge to ſummon them to his Banquetting-Houſe at <hi>White-hall;</hi> whence all the Three States may by a ſhort and eaſie Walk arrive together at <hi>Weſtminſter,</hi> and there conſult for the Common Good. He car<g ref="char:EOLhyphen"/>ries a Bundle of Arrows in his Hand, with this Motto over them, <hi>Concordia res parvae creſcunt, diſcordia maxima dilabuntur.</hi>
+            </p>
+            <pb facs="tcp:104598:3"/>
+            <p>If there be no <hi>Myſteries in Chriſtianity,</hi> it ſeems there are ſome in <hi>Policy;</hi> when <hi>Ja<g ref="char:EOLhyphen"/>cobites</hi> and <hi>Commonwealths-Men,</hi> who have mutually branded one another with the harſheſt Names that Malice and Rancour could invent, ſhould now unite in a Deſign againſt the preſent Government, as a Common Center. If it be ſo, (which <hi>Old AESOP</hi> is very unwilling to believe,) he hath given Commiſ<g ref="char:EOLhyphen"/>ſion to his Beaſts, in the following <hi>Fables,</hi> to declare the firſt to be (what they always were) <hi>Knaves,</hi> and the latter (which he is ſure they will be loth to be accounted) <hi>Fools</hi> If the Reflections ſeem too Satyrical, they may conſi<g ref="char:EOLhyphen"/>der that it comes from Beaſts like themſelves. And ſo <hi>Aeſop</hi> bids them Farewel, but to take Care not to divide the Prey till it is caught.</p>
+            <closer>
+               <dateline>White-hall, <date>Sep<g ref="char:EOLhyphen"/>temb. 22. 1698.</date>
+               </dateline>
+               <signed>AESOP.</signed>
+            </closer>
+         </div>
+         <div type="text">
+            <pb facs="tcp:104598:3"/>
+            <head>The SUMMONS.</head>
+            <lg>
+               <l>THE Jackall did the King of Brutes inform</l>
+               <l>That ſome deſign'd to mine, and ſome to ſtorm</l>
+               <l>His Royal Fort. At which, with generous Rage</l>
+               <l>The Kingly Beaſt, their Malice to aſſwage,</l>
+               <l>Sends forth his Summons, That they ſhould appear</l>
+               <l>At <hi>Brutes White-hall,</hi> from Quarters far and near,</l>
+               <l>There to conſult; and if they found that any</l>
+               <l>Better deſerv'd the Sway among the <hi>Many</hi>
+               </l>
+               <l>Than <hi>Leo</hi> did, he wou'd the Crown forſwear</l>
+               <l>And never henceforth any Scepter bear:</l>
+               <l>But at the ſame time gives't as his Advice,</l>
+               <l>'It's better to fill Bag one time than thrice,</l>
+               <l>'Or three times three. It's better under one,</l>
+               <l>'Than many Maſters, to lament and groan.</l>
+            </lg>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:104598:4"/>
+            <pb n="1" facs="tcp:104598:4"/>
+            <head>Old AESOP AT VVHITE-HALL, GIVING Advice to the Young <hi>AESOPS</hi> AT Tunbridge <hi>and</hi> Bath.</head>
+            <div n="1" type="fable">
+               <head>FAB. I. The <hi>Tortoiſe</hi> and <hi>Frogs.</hi>
+               </head>
+               <lg>
+                  <l>A Heavy <hi>Tortoſe</hi> ſeeing <hi>Frogs</hi>
+                  </l>
+                  <l>Nimbly leap in Pools and Poggs,</l>
+                  <l>Bleſs'd their limber Hams, that they</l>
+                  <l>Could ſo bravely frisk and play;</l>
+                  <pb n="2" facs="tcp:104598:5"/>
+                  <l>Curs'd the hard and heavy Pack</l>
+                  <l>That Nature laid on his own Back:</l>
+                  <l>He could neither skip nor dance,</l>
+                  <l>Nor caper <hi>A-la-mode de France.</hi>
+                  </l>
+                  <l>But as ſoon's he ſaw the <hi>Stork</hi>
+                  </l>
+                  <l>Could the <hi>Fregs</hi> from Puddle fork,</l>
+                  <l>And that for all their nimble Heels</l>
+                  <l>They became a Prey to <hi>Eels;</hi>
+                  </l>
+                  <l>Then he quickly chang'd his Note,</l>
+                  <l>And for's own Coat of Mail gave Vote;</l>
+                  <l>Thank'd his Stars that he was free</l>
+                  <l>From <hi>Storks</hi> and ſuch-like Tyranny,</l>
+                  <l>By being armed Cap-a-pee.</l>
+               </lg>
+               <pb n="3" facs="tcp:104598:5"/>
+               <lg>
+                  <head>MORAL.</head>
+                  <l>
+                     <hi>Did we but ſ<gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>e through</hi> Gallick <hi>Sway</hi>
+                  </l>
+                  <l>
+                     <hi>How feeble Subjects are a Prey</hi>
+                  </l>
+                  <l>
+                     <hi>To th' Sovereign's arbitrary Will,</hi>
+                  </l>
+                  <l>
+                     <hi>Who can at's Pleaſure ſave and kill;</hi>
+                  </l>
+                  <l>
+                     <hi>Did we but feel th' Effects of's Sword and Flames,</hi>
+                  </l>
+                  <l>
+                     <hi>Saw Virgins raviſh'd, h<gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ard the Cries of Dames,</hi>
+                  </l>
+                  <l>
+                     <hi>When Soldiers ſack their Towns, deſtroy their Men,</hi>
+                  </l>
+                  <l>
+                     <hi>Cut off their Children, ſcarc<gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> ſpare One in Ten;</hi>
+                  </l>
+                  <l>
+                     <hi>Could we but ſee</hi> Rome<hi>'s Prieſts converting</hi> France</l>
+                  <l>
+                     <hi>With Arguments from Gun, Sword, Spear and Lance,</hi>
+                  </l>
+                  <l>
+                     <hi>And then reflect that this h<gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>d been our Doom,</hi>
+                  </l>
+                  <l>
+                     <hi>Could</hi> James <hi>the Juſt have paid his Vows to</hi> Rome,</l>
+                  <l>
+                     <hi>We would not grumble at the Tax we pay</hi>
+                  </l>
+                  <l>
+                     <hi>To ke<gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>p ſuch Monſtrous Tyranny away,</hi>
+                  </l>
+                  <l>
+                     <hi>But ſhould, That</hi> William <hi>might live ever, pray.</hi>
+                  </l>
+               </lg>
+            </div>
+            <div n="2" type="fable">
+               <pb n="4" facs="tcp:104598:6" rendition="simple:additions"/>
+               <head>FAB. II. Of the other <hi>Members</hi> conſpiring againſt the <hi>Belly.</hi>
+               </head>
+               <lg>
+                  <l>ONce on a Time the Hands and Feet</l>
+                  <l>With Back, and Loins, and Bum, did meet</l>
+                  <l>In a Rebellious Conſult, where</l>
+                  <l>The B—ch as Speaker took the Chair,</l>
+                  <l>And with an uncouth hollow ſound</l>
+                  <l>The following Treaſon did propound:</l>
+                  <l>Brethren, quoth he, you know the Head</l>
+                  <l>Makes us to toil and ſweat for Bread,</l>
+                  <l>Yet nothing to our Lot doth fall,</l>
+                  <l>But <hi>idle Gut</hi> conſumes it all.</l>
+                  <pb n="5" facs="tcp:104598:6"/>
+                  <l>My Friends, if you'll be rul'd by me,</l>
+                  <l>We will ſhake off this Tyranny.</l>
+                  <l>If Head and Belly will have Meat,</l>
+                  <l>Let them toil for't with Hands and Feet.</l>
+                  <l>Agreed, ſays Back, I vow and ſwear,</l>
+                  <l>For them I'll no more Burthens bear.</l>
+                  <l>Content, ſays Bum, if't be your Will;</l>
+                  <l>For I love dearly to ſit ſtill.</l>
+                  <l>Says Feet, I'll no more Errands run.</l>
+                  <l>The Loins ſay, Brethren, it is done.</l>
+                  <l>The Hands vow they would work no more,</l>
+                  <l>And wiſh they'd been as wiſe before.</l>
+                  <l>The Members thus in Holy League</l>
+                  <l>Did bleſs themſelves for this Intrigue.</l>
+                  <l>But ſuddenly the Hands grew weak,</l>
+                  <l>The Feet grew numb, the Loins did ſhake,</l>
+                  <pb n="6" facs="tcp:104598:7"/>
+                  <l>The Back was feeble, the Bum grew poor,</l>
+                  <l>And Breech the Chair-man loud did roar,</l>
+                  <l>
+                     <hi>Pray cram the Gut, and we'll rebel no more.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <head>MORAL.</head>
+                  <l>
+                     <hi>It's hop'd this will not be forgot</hi>
+                  </l>
+                  <l>
+                     <hi>By thoſe who form'd the</hi> Tunbridge <hi>Plot.</hi>
+                  </l>
+                  <l>
+                     <hi>Old</hi> Aeſop <hi>was a Man of Senſe,</hi>
+                  </l>
+                  <l>
+                     <hi>Such Doctrines never did diſpenſe,</hi>
+                  </l>
+                  <l>
+                     <hi>That People ſhould refuſe Support,</hi>
+                  </l>
+                  <l>
+                     <hi>And pine themſelves to ſtarve the Court.</hi>
+                  </l>
+               </lg>
+            </div>
+            <div n="3" type="fable">
+               <pb n="7" facs="tcp:104598:7"/>
+               <head>FAB III. The <hi>Hermit</hi> and the <hi>Soldier.</hi>
+               </head>
+               <lg>
+                  <l>A Pious <hi>Hermit</hi> ſeeing a Man of Blood</l>
+                  <l>Come ſtrutting thro' his ſolitary Wood,</l>
+                  <l>Accoſts him thus: Dear Brother, why do you</l>
+                  <l>In Humane Blood and Gore your Hands imbrue?</l>
+                  <l>Leave off that Trade, be 'Partner in my Cell,</l>
+                  <l>Read, pray, and think, and ſave your Soul from Hell.</l>
+                  <l>The Soldier look'd ſtern,</l>
+                  <l>But at laſt did reply,</l>
+                  <l>I am willing to learn,</l>
+                  <l>And G—zds I'll comply.</l>
+                  <l>We Men of the Sword</l>
+                  <l>Are not worth a T—d,</l>
+                  <pb n="8" facs="tcp:104598:8"/>
+                  <l>But are baſely kept under,</l>
+                  <l>Nor have Pay nor have Plunder.</l>
+                  <l>A plague on the Peace</l>
+                  <l>Which makes our Gain ceaſe:</l>
+                  <l>And ſeeing it is ſo,</l>
+                  <l>With the Hermit I'll go,</l>
+                  <l>Till the Drums beat again, and the Trumpets do blow.</l>
+               </lg>
+               <lg>
+                  <head>MORAL.</head>
+                  <l>
+                     <hi>Juſt ſo the</hi> Jacks <hi>their deſperate Cauſe forſake,</hi>
+                  </l>
+                  <l>
+                     <hi>And to the ſide o'th' Commonwealth betake;</hi>
+                  </l>
+                  <l>
+                     <hi>Since their own King has play'd the Fool, and's gone,</hi>
+                  </l>
+                  <l>
+                     <hi>Ours to moleſt they turn up every Stone.</hi>
+                  </l>
+                  <l>
+                     <hi>The Church, the Church, is ready to take fire,</hi>
+                  </l>
+                  <l>
+                     <hi>Is all their Out-cry: Brethren, ſave the Quire,</hi>
+                  </l>
+                  <pb n="9" facs="tcp:104598:8" rendition="simple:additions"/>
+                  <l>
+                     <hi>Take care o'th Steeple, Chancel, Surplice, Crape,</hi>
+                  </l>
+                  <l>
+                     <hi>The Church of</hi> England <hi>Dove's in danger of a Rape,</hi>
+                  </l>
+                  <l>
+                     <hi>No thanks to them ſhe did from Father</hi> Peters <hi>ſcape:</hi>
+                  </l>
+                  <l>
+                     <hi>Yet when their Prince, and's Prieſts ſhall venture over,</hi>
+                  </l>
+                  <l>
+                     <hi>They'll ſwear ſhe is no Chaſt nor Turtle Lover,</hi>
+                  </l>
+                  <l>
+                     <hi>But did to others her fair Breaſts diſcover;</hi>
+                  </l>
+                  <l>
+                     <hi>Then they will be for Commonwealth no more,</hi>
+                  </l>
+                  <l>
+                     <hi>But ſcrew Prerogative high as before,</hi>
+                  </l>
+                  <l>
+                     <hi>Huff like</hi> N—S—r, <hi>cackle like</hi> B—S—wer.</l>
+               </lg>
+            </div>
+            <div n="4" type="fable">
+               <pb n="10" facs="tcp:104598:9"/>
+               <head>FAB. IV. The <hi>Aſs</hi> in the <hi>Lion</hi>'s Skin.</head>
+               <lg>
+                  <l>A Certain <hi>Aſs</hi> being ſtruck with Shame</l>
+                  <l>Of's native Slavery, and his Name,</l>
+                  <l>Made ſhift to ſteal a <hi>Lion</hi>'s Skin,</l>
+                  <l>And boldly ſtalk'd about therein;</l>
+                  <l>Shook off his innate ſluggiſh Pace,</l>
+                  <l>And did aſſume an awful Face,</l>
+                  <l>As if h' had been of <hi>Lybian</hi> Breed,</l>
+                  <l>And from the Baſtinado freed.</l>
+                  <l>But's curs'd Ears, and Cathedral Note,</l>
+                  <l>To his great Grief, reveal'd the Plot;</l>
+                  <l>For when he did attempt to roar,</l>
+                  <l>He could not do't, but bray'd juſt as before.</l>
+               </lg>
+               <pb n="11" facs="tcp:104598:9"/>
+               <lg>
+                  <head>MORAL.</head>
+                  <l>
+                     <hi>Thus Nonreſiſtance thinks't no Sin</hi>
+                  </l>
+                  <l>
+                     <hi>To put on a true Patriot's Skin,</hi>
+                  </l>
+                  <l>
+                     <hi>And plead for Liberty and Laws,</hi>
+                  </l>
+                  <l>
+                     <hi>And eaſie Tax. But mark the Cauſe:</hi>
+                  </l>
+                  <l>
+                     <hi>He would the Government diſable,</hi>
+                  </l>
+                  <l>
+                     <hi>And loſe the Ship for want of Cable.</hi>
+                  </l>
+                  <l>
+                     <hi>And by this means it comes to paſs,</hi>
+                  </l>
+                  <l>
+                     <hi>We know the old</hi> Paſſive Obedience Aſs.</l>
+               </lg>
+            </div>
+            <div n="5" type="fable">
+               <pb n="12" facs="tcp:104598:10"/>
+               <head>FAB. V. The <hi>Wolf</hi> and <hi>Hedgehog.</hi>
+               </head>
+               <lg>
+                  <l>A Greedy <hi>Wolf</hi> that ravag'd Hills and Plains,</l>
+                  <l>Devour'd the Flocks, and beggar'd all the Swains,</l>
+                  <l>Triumph'd and skipp'd. But Plenty cauſing waſt,</l>
+                  <l>At length he knew not where to break his Faſt;</l>
+                  <l>But in his Range meets with a Porcupine,</l>
+                  <l>A curious Bit to make <hi>Lycaon</hi> dine:</l>
+                  <l>His eager Chaps would fain been at the Prey,</l>
+                  <l>But the arm'd <hi>Hedgehog</hi> held him at a Bay.</l>
+                  <l>Hungry <hi>Lycaon</hi> ſeeing this, cries out,</l>
+                  <l>My little Brother, how comes this about?</l>
+               </lg>
+               <pb n="13" facs="tcp:104598:10"/>
+               <lg>
+                  <l>Have you forgot the late-concluded Peace,</l>
+                  <l>That you do ſtill your Armour w<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> ear,</l>
+                  <l>As if there were new Cauſe of Fear?</l>
+                  <l>Lay by your Darts, and let War ceaſe.</l>
+                  <l>You cannot think that I will break the League,</l>
+                  <l>And Brother-Brutes ſurprize by falſe Intrigue.</l>
+                  <l>Nay, Nay, ſays Hedgehog, Brother, I don't ſay</l>
+                  <l>That you will me or other Brutes betray;</l>
+                  <l>But ne'ertheleſs it doth appear,</l>
+                  <l>While you have Tusks, there's Cauſe of Fear:</l>
+                  <l>Let me firſt draw your Teeth, and <hi>Sans</hi> Delay</l>
+                  <l>I'll throw my Quiver and my Darts away.</l>
+               </lg>
+               <pb n="14" facs="tcp:104598:11"/>
+               <lg>
+                  <head>MORAL.</head>
+                  <l>
+                     <hi>Thus crafty Jacks do plead our Cauſe,</hi>
+                  </l>
+                  <l>
+                     <hi>Arm'd Troops in Time of Peace ſubvert our Laws:</hi>
+                  </l>
+                  <l>
+                     <hi>Lay down your Arms, and then we ſwear,</hi>
+                  </l>
+                  <l>
+                     <hi>That our brave Prince will ſoon appear;</hi>
+                  </l>
+                  <l>La Hogue <hi>you know is very near.</hi>
+                  </l>
+                  <l>
+                     <hi>But ſince</hi> Van Trump, <hi>and bold</hi> De Rutter,</l>
+                  <l>
+                     <hi>With Ball and Powder made ſuch ſplutter,</hi>
+                  </l>
+                  <l>
+                     <hi>He's as much 'fraid of Sword and Bomb,</hi>
+                  </l>
+                  <l>
+                     <hi>As was his Grandſire in his Grandame's Womb.</hi>
+                  </l>
+                  <l>
+                     <hi>Disband your Troops therefore, we pray,</hi>
+                  </l>
+                  <l>
+                     <hi>The Nation cannot bear your Pay.</hi>
+                  </l>
+                  <l>
+                     <hi>Then come the Wolves o'er from</hi> Campeigne,</l>
+                  <l>
+                     <hi>And carry all the Sheep away;</hi>
+                  </l>
+                  <pb n="15" facs="tcp:104598:11"/>
+                  <l>
+                     <hi>Then will our Prince, like</hi> Mars, <hi>in Warlike Guiſe,</hi>
+                  </l>
+                  <l>
+                     <hi>Encamp at</hi> Hounſlow <hi>to ſhoot Butterflies.</hi>
+                  </l>
+                  <l>
+                     <hi>No Man can ſay that he will break the Law,</hi>
+                  </l>
+                  <l>
+                     <hi>Or us by Standing-Armies over-awe;</hi>
+                  </l>
+                  <l>
+                     <hi>Since it is clear, as e'er was Light of Sun,</hi>
+                  </l>
+                  <l>
+                     <hi>His Army never ſtood, but always run.</hi>
+                  </l>
+                  <l>
+                     <hi>Let no foul Tongue our Valorous Prince diſgrace,</hi>
+                  </l>
+                  <l>
+                     <hi>For he in Perſon always won the Race:</hi>
+                  </l>
+                  <l>
+                     <hi>The</hi> Boyn<hi>'s fair Flood, and</hi> Sarum<hi>'s ſpacious Plain,</hi>
+                  </l>
+                  <l>
+                     <hi>Will this great Truth for evermore maintain.</hi>
+                  </l>
+               </lg>
+            </div>
+            <div n="6" type="fable">
+               <pb n="16" facs="tcp:104598:12"/>
+               <head>FAB. VI. The <hi>Fox</hi> caught in a Trap.</head>
+               <lg>
+                  <l>ACertain <hi>Fox</hi> being caught in Trap,</l>
+                  <l>Did loſe his Tail by the Miſhap,</l>
+                  <l>And cried, Alas!</l>
+                  <l>For his Diſgrace,</l>
+                  <l>He could not ſhew Face,</l>
+                  <l>Nor follow the Chaſe:</l>
+                  <l>But yet, ſays he, tho' <hi>Reynards</hi> do beguile</l>
+                  <l>The other <hi>Brutes</hi> by ſome ſly Trick and Wile;</l>
+                  <l>I do not know that <hi>Foxes</hi> are exempted</l>
+                  <l>From being fool'd too, if they're fitly tempted.</l>
+                  <pb n="17" facs="tcp:104598:12"/>
+                  <l>Then let me go try,</l>
+                  <l>And briskly apply</l>
+                  <l>My Wits, to deceive,</l>
+                  <l>And make Foxes believe,</l>
+                  <l>That the Burden of their Tail,</l>
+                  <l>In Rain, Snow or Hail,</l>
+                  <l>Is intolerably grievous,</l>
+                  <l>And in Hunting miſchievous.</l>
+                  <l>
+                     <gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>f by this Means I can but prevail,</l>
+                  <l>To have every Fox cut off his own Tail,</l>
+                  <l>Then none of 'em at me will mock, ſcoff or rail.</l>
+                  <l>Away <hi>Reynard</hi> goes,</l>
+                  <l>His deſign to propoſe,</l>
+                  <l>Says Fathers and Mothers,</l>
+                  <l>Dear Siſters and Brothers,</l>
+                  <l>Don't flout, jeer and mock,</l>
+                  <l>At my mangled Dock:</l>
+                  <pb n="18" facs="tcp:104598:13"/>
+                  <l>You know that your Tails,</l>
+                  <l>But little avails,</l>
+                  <l>When you leap over Pales,</l>
+                  <l>To catch Sheep and Fowls;</l>
+                  <l>Then do not like Owls,</l>
+                  <l>Thus burden your Back,</l>
+                  <l>By a thing you might lack.</l>
+                  <l>How brisk and how fine</l>
+                  <l>Am I without mine?</l>
+               </lg>
+               <lg>
+                  <l>The reſt perceiving what his Motive was;</l>
+                  <l>Told him good Brother this will never paſs.</l>
+                  <l>When we're hunted by Dogs,</l>
+                  <l>O'er Hills, and through Bogs,</l>
+                  <l>On our Tails we do piſs,</l>
+                  <l>And their Chops do not miſs.</l>
+                  <l>And this was the cauſe made the Proverb preva<gap reason="illegible" resp="#UOM" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>
+                  </l>
+                  <l>He hath got a ſlap with the Foxes Tail.</l>
+                  <pb n="19" facs="tcp:104598:13"/>
+                  <l>Then ceaſe Brother Fox,</l>
+                  <l>If we mangle our Docks,</l>
+                  <l>As you do propoſe,</l>
+                  <l>We're expos'd to our Foes.</l>
+               </lg>
+               <lg>
+                  <head>Moral.</head>
+                  <l>
+                     <hi>Thus the curs'd Crew who have themſelves undone,</hi>
+                  </l>
+                  <l>
+                     <hi>And from their Reaſon, Senſe, and Intereſt run,</hi>
+                  </l>
+                  <l>
+                     <hi>Would gladly have us caught in that ſame Trap;</hi>
+                  </l>
+                  <l>
+                     <hi>Ill Men would fain have Brethren in miſhap.</hi>
+                  </l>
+               </lg>
+            </div>
+            <div n="7" type="fable">
+               <pb n="20" facs="tcp:104598:14"/>
+               <lg>
+                  <head>FAB. VII. The <hi>Fox</hi> preaching to the <hi>Sheep.</hi>
+                  </head>
+                  <l>ARavening Wolf the Sheep-Cotes did invade,</l>
+                  <l>And there ſet up his Butchers Shambles;</l>
+                  <l>Where without trouble of Preambles,</l>
+                  <l>He kill'd whatever came to hand.</l>
+                  <l>A ſturdy Maſtiff by the Farmer laid</l>
+                  <l>In the ſame Fold, preſerv'd the Sheep,</l>
+                  <l>So that in Safety they could ſleep,</l>
+                  <l>And feed with quiet in their Maſters Land,</l>
+                  <l>The Fox who us'd with Wolf to diet,</l>
+                  <l>And on the tender Lambs to riot;</l>
+                  <l>Perceiving this.</l>
+                  <pb n="21" facs="tcp:104598:14"/>
+                  <l>Says <hi>Monſieur Wolf,</hi> I am not able</l>
+                  <l>To live at ſuch an ill-ſpread Table.</l>
+                  <l>Were it amiſs,</l>
+                  <l>That I ſhould go and tell the Sheep,</l>
+                  <l>The Maſtiff Dog that doth them keep</l>
+                  <l>Lives on their Blood;</l>
+                  <l>That he and's Maſter every Day,</l>
+                  <l>With joint conſent divide the Prey,</l>
+                  <l>And make the Sheep their Food.</l>
+                  <l>Wolf anſwers, <hi>Reynard,</hi> that is good,</l>
+                  <l>Go tell the Sheep that they ſhould ceaſe</l>
+                  <l>To cloth their Maſter with their Fleece;</l>
+                  <l>Except he will his Dog remove,</l>
+                  <l>For ſuch a Guard they do not love</l>
+                  <l>In time of Peace.</l>
+               </lg>
+               <lg>
+                  <l>The Fox gets in amongſt the Flock,</l>
+                  <l>And with ſly Oratry thus ſpoke.</l>
+                  <pb n="22" facs="tcp:104598:15"/>
+                  <l>Good Men of Mutton,</l>
+                  <l>What do ye with this Maſtiff Dog,</l>
+                  <l>He is a mercenary Rogue</l>
+                  <l>Not worth a Button?</l>
+                  <l>For on pretence of keeping guard,</l>
+                  <l>Your Fleſh and Bones are his Reward:</l>
+                  <l>Get him caſhier'd.</l>
+                  <l>The Wolf and I have ſworn the Peace,</l>
+                  <l>And our Hoſtilities muſt ceaſe,</l>
+                  <l>Noughts to be fear'd</l>
+                  <l>By him, his Maſter in diſguiſe</l>
+                  <l>Means'ore the Flocks to tyrannize</l>
+                  <l>On my Salvation.</l>
+                  <l>As I'm <hi>a true Son of the Church,</hi>
+                  </l>
+                  <l>I would not leave you in the Lurch,</l>
+                  <l>Of ſuch Damnation.</l>
+                  <l>The bleating Herd began to grumble,</l>
+                  <l>For <hi>Raynard</hi>'s Logick, made them ſtumble,</l>
+                  <pb n="23" facs="tcp:104598:15"/>
+                  <l>And thus they ſaid:</l>
+                  <l>In Faith the Wolf and Fox we ſee</l>
+                  <l>Are Enemies to Tyranny;</l>
+                  <l>Their council ought to be obey'd.</l>
+                  <l>Since <hi>Ned</hi> the Wolf, and <hi>Batt</hi> the Fox,</l>
+                  <l>Are our good Friends than what a Pox</l>
+                  <l>Should we be plagu'd with Curs.</l>
+                  <l>We will no more our Fleeces yield,</l>
+                  <l>Nor have our Lambs tore from the Field,</l>
+                  <l>Let's to our Zeal add Spurs:</l>
+                  <l>And for our Spokeſman chuſe a Ram,</l>
+                  <l>Or ſturdy Goat to ſwear and damn,</l>
+                  <l>And curſe Diſſenters.</l>
+                  <l>Our greateſt Dangers from the Whigs,</l>
+                  <l>And cauſe they will not pay Tithe Pigs,</l>
+                  <l>The Wolf and Fox on them ſhall have Debentures.</l>
+                  <l>Content ſays Fox and there's my Hand,</l>
+                  <l>I'll publiſh this in Woolfiſh-land;</l>
+                  <pb n="24" facs="tcp:104598:16"/>
+                  <l>Farewell dear Sheep.</l>
+                  <l>The Woolf and I will guard your Cotes,</l>
+                  <l>And pull out the Diſſenters Throats;</l>
+                  <l>But unto you our promiſe keep.</l>
+                  <l>The Flock by <hi>Reynard</hi> thus perſwaded,</l>
+                  <l>That Dog and Farmer them invaded,</l>
+                  <l>Straight left the Fold.</l>
+                  <l>Did thro' the Hills and Valleys ſtray,</l>
+                  <l>And from their Guard did run away;</l>
+                  <l>Left him to ſtarve for want of pay:</l>
+                  <l>But mark the end.</l>
+                  <l>The Woolf and Fox, having prevail'd</l>
+                  <l>The ſcatter'd Flocks ſtraight they aſſail'd,</l>
+                  <l>And did them all in pieces rend.</l>
+               </lg>
+               <pb n="25" facs="tcp:104598:16"/>
+               <lg>
+                  <head>Moral.</head>
+                  <l>
+                     <hi>It's hop'd the Sheep of</hi> North <hi>and</hi> Weſt,</l>
+                  <l>
+                     <hi>Who to the Parliament make haſte,</hi>
+                  </l>
+                  <l>
+                     <hi>The Moral will reach;</hi>
+                  </l>
+                  <l>
+                     <hi>Which is no more</hi>
+                  </l>
+                  <l>
+                     <hi>Then the Proverb of Yore,</hi>
+                  </l>
+                  <l>
+                     <hi>Let the Geeſe look to't when the Fox doth preach.</hi>
+                  </l>
+               </lg>
+            </div>
+            <div n="8" type="fable">
+               <head>FAB. VIII. The Fable of the <hi>Spunge.</hi>
+               </head>
+               <lg>
+                  <l>A Certain Brewer whoſe Liquor of Life,</l>
+                  <l>Did frequently amongſt his Servants raiſe ſtrife,</l>
+                  <l>Reſolv'd to abridge them, giving each Man his ſhare,</l>
+                  <l>Enough to ſuffice but nothing to ſpare:</l>
+                  <pb n="26" facs="tcp:104598:17"/>
+                  <l>But the Servants reſolving they would not be ſtinted,</l>
+                  <l>Put their Wits on the Rack, and this Device minted.</l>
+                  <l>They got Gloves of Spunge which they thruſt in the Liquor,</l>
+                  <l>And ſqueezing them often ſpent their Maſters Stock quicker:</l>
+                  <l>Which the Brewer underſtanding, he ſeiz'd on the Spunges;</l>
+                  <l>Made his Servants repay him, and with Actions them ſwinges;</l>
+                  <l>Till he ſqueez'd back his own, and taught them to be true,</l>
+                  <l>To leave off their ſlie Cheats, and be content with their Due.</l>
+               </lg>
+               <pb n="27" facs="tcp:104598:17"/>
+               <lg>
+                  <head>Moral.</head>
+                  <l>
+                     <hi>Thoſe that miſapply the Treaſure of the Nation,</hi>
+                  </l>
+                  <l>
+                     <hi>Ought thus to be ſqueez'd till they make reparation:</hi>
+                  </l>
+                  <l>
+                     <hi>We may Tax, and pay on, and the King ſtill be poor,</hi>
+                  </l>
+                  <l>
+                     <hi>If the Hands of his Servants be pitch'd as before.</hi>
+                  </l>
+                  <l>
+                     <hi>It's the Intereſt of the Nation, our Senate underſtands,</hi>
+                  </l>
+                  <l>
+                     <hi>That thoſe who touch Caſh ſhould have clean waſhen hands.</hi>
+                  </l>
+               </lg>
+            </div>
+            <div n="9" type="fable">
+               <head>FAB. XI. The <hi>Crumpeter.</hi>
+               </head>
+               <lg>
+                  <l>A Trumpeter who by his fatal Sounds,</l>
+                  <l>Provok'd Mankind to mutual Blood and Wounds;</l>
+                  <l>Being ta'ne in Field did for his Life implore:</l>
+                  <l>I ſound the Charge ſaid he, but do no more.</l>
+                  <pb n="28" facs="tcp:104598:18"/>
+                  <l>The Conquerour grew enrag'd at this Defence;</l>
+                  <l>Replies, baſe Villan, I'll diſpatch thee hence,</l>
+                  <l>Down to the <hi>Stygian</hi> Shades; doſt thou not know,</l>
+                  <l>That he who counſels Murder, gives the blow.</l>
+               </lg>
+               <lg>
+                  <head>Moral.</head>
+                  <l>
+                     <hi>The Fable hits thoſe who in former Reigns,</hi>
+                  </l>
+                  <l>
+                     <hi>For love of Faction, or for love of Gains,</hi>
+                  </l>
+                  <l>
+                     <hi>Did teach our Monarchs a Deſpotick Sway,</hi>
+                  </l>
+                  <l>
+                     <hi>And damn'd the People that would not obey:</hi>
+                  </l>
+                  <l>
+                     <hi>Theſe were the Firebrands of the Church and State,</hi>
+                  </l>
+                  <l>
+                     <hi>And did more Miſchief than</hi> Jack Straw <hi>or</hi> Kett:</l>
+                  <l>
+                     <hi>They caus'd the War and that brought on the Tax,</hi>
+                  </l>
+                  <l>
+                     <hi>Then let the weight of't fall on their own Backs;</hi>
+                  </l>
+                  <l>
+                     <hi>Why ſhould the Peoples Blood and Treaſure pay</hi>
+                  </l>
+                  <l>
+                     <hi>To reſcue that which Prieſtcraft did betray.</hi>
+                  </l>
+                  <pb n="29" facs="tcp:104598:18"/>
+                  <l>
+                     <hi>The Prieſts advanc'd the</hi> Popeling <hi>to the Throne;</hi>
+                  </l>
+                  <l>
+                     <hi>The Prieſts again did force him to be gone;</hi>
+                  </l>
+                  <l>
+                     <hi>And now the Prieſts, like Turn-coats, as before,</hi>
+                  </l>
+                  <l>
+                     <hi>Chuſe Jacks for Senate with Canonick Roar:</hi>
+                  </l>
+                  <l>
+                     <hi>And Churches danger ſlily would infer,</hi>
+                  </l>
+                  <l>
+                     <hi>From our great King who bravely reſcued her.</hi>
+                  </l>
+               </lg>
+            </div>
+            <div n="10" type="fable">
+               <head>FAB. X. The <hi>Lion</hi> and the <hi>Aſs.</hi>
+               </head>
+               <lg>
+                  <l>IT once came to paſs,</l>
+                  <l>That the Lion and Aſs,</l>
+                  <l>Did meet in a great Conſultation;</l>
+                  <l>When the King of the Brutes,</l>
+                  <l>To the dulleſt of Mutes,</l>
+                  <l>Did ſeriouſly make Application.</l>
+                  <pb n="30" facs="tcp:104598:19"/>
+                  <l>True <hi>Roger,</hi> quoth he,</l>
+                  <l>Do but hearken to me,</l>
+                  <l>And I ſwear I will highten thy Fortune.</l>
+                  <l>Thou'rt now a dull Beaſt,</l>
+                  <l>But I'll make thee High Prieſt,</l>
+                  <l>And the reſt ſhall no more dare thee ſport on.</l>
+                  <l>Good Soveraign ſay on,</l>
+                  <l>Quoth <hi>Roger</hi> anon,</l>
+                  <l>For I am quite weary of Slavery:</l>
+                  <l>I ſwear by St. <hi>Peter</hi>
+                  </l>
+                  <l>If you'l give me a Mitre</l>
+                  <l>I'll ſerve you, be't Roguery or Knavery.</l>
+                  <l>I thank you ſays Lion,</l>
+                  <l>Thy word I'll rely on;</l>
+                  <l>The Service that I then command thee,</l>
+                  <l>Is to teach that I muſt govern,</l>
+                  <l>Like an Abſolute Soveraign,</l>
+                  <l>And that thoſe will be damn'd that withſtand me.</l>
+                  <pb n="31" facs="tcp:104598:19"/>
+                  <l>Agreed ſays the Aſs,</l>
+                  <l>I will bring it to paſs,</l>
+                  <l>And have Paſſive Obedience in faſhion;</l>
+                  <l>They ſhall all be call'd Traitors,</l>
+                  <l>And Monarchy-haters,</l>
+                  <l>From the Pulpits, and Desks of the Nation.</l>
+                  <l>But it happen'd that the King,</l>
+                  <l>Harp'd on another String,</l>
+                  <l>And invaded the Rights of the Aſſes.</l>
+                  <l>Then <hi>Roger</hi> turn'd tale,</l>
+                  <l>'Gainſt his Soveraign did rail,</l>
+                  <l>In his Preachments, his Prayers, and Glaſſes.</l>
+               </lg>
+               <lg>
+                  <head>Moral.</head>
+                  <l>
+                     <hi>Thus Tyrant Princes did make uſe of Prieſts,</hi>
+                  </l>
+                  <l>
+                     <hi>Their Subjects to transform from Men to Beaſts.</hi>
+                  </l>
+                  <l>
+                     <hi>The Time's well known, you need not ask me when,</hi>
+                  </l>
+                  <l>
+                     <hi>But e're from Beaſts they turn to Men again,</hi>
+                  </l>
+                  <l>
+                     <hi>The Prieſts muſt be reform'd; ſuch Reformation</hi>
+                  </l>
+                  <l>
+                     <hi>Is th' only Remedy can ſave the Nation.</hi>
+                  </l>
+               </lg>
+            </div>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
